@@ -1,0 +1,30 @@
+{
+  "name": "dog-service",
+  "version": "1.0.0",
+  "description": "サーバサイドが完成していないので実行してもエラーが出てきます。クライアントは動くので、クライアントからAPIを叩いて確認しながら実装するのもOK.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bootcamp-tpa/dog-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bootcamp-tpa/dog-service/issues"
+  },
+  "homepage": "https://github.com/bootcamp-tpa/dog-service#readme",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.dog-data {
+  background-color: #ddd;
+  padding: 40px;
+}
+
+.dog-data img {
+  width: 100%;
+}
+
+#dog-query-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#dog-query-form input {
+  margin: 0 15px;
+  width: 60px;
+  font-size: 22px;
+}
+
+#dog-query-form button {
+  margin: 0;
+}

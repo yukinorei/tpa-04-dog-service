@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "ヤンキー",
+    "quote": "何見てんだよ！",
+    "imageUrl": "https://barkpost.com/wp-content/uploads/2015/10/reddit-dog-jokes-16.jpg?q=70&fit=crop&crop=entropy&w=808&h=808"
+  },
+  {
+    "id": 1,
+    "name": "オラフ",
+    "quote": "暑くて溶けちゃうよ〜",
+    "imageUrl": "https://malialitman.files.wordpress.com/2014/06/funny-dog-one.jpg"
+  },
+  {
+    "id": 2,
+    "name": "ナルシー",
+    "quote": "俺いけてるな",
+    "imageUrl": "https://i.imgur.com/uESd23m.png"
+  },
+  {
+    "id": 3,
+    "name": "スパイキー",
+    "quote": "何が起きたんだ？",
+    "imageUrl": "https://i.imgur.com/JdKDbyO.png"
+  },
+  {
+    "id": 4,
+    "name": "おやじー",
+    "quote": "最近太ったな",
+    "imageUrl": "https://i.imgur.com/JqQ6nff.png"
+  },
+  {
+    "id": 5,
+    "name": "おばじー",
+    "quote": "最近おやじーが太ったな〜",
+    "imageUrl": "https://i.imgur.com/8zLJ2P8.png"
+  },
+  {
+    "id": 6,
+    "name": "エルマー",
+    "quote": "冒険に行こうかね",
+    "imageUrl": "https://i.imgur.com/VY0kXg0.png"
+  },
+  {
+    "id": 7,
+    "name": "飲み助",
+    "quote": "いや、酔ってません",
+    "imageUrl": "https://i.imgur.com/ZLHtde4.png"
+  },
+  {
+    "id": 8,
+    "name": "まゆちゃん",
+    "quote": "ちょっと眉毛整えてみたんだけど、どう？♡",
+    "imageUrl": "https://i.ytimg.com/vi/OzJiHFxT8aI/maxresdefault.jpg"
+  },
+  {
+    "id": 9,
+    "name": "スキン",
+    "quote": "ちょっと剃りすぎた",
+    "imageUrl": "https://www.thisdogslife.co/wp-content/uploads/2017/06/Siberian-Husky-Shaved.jpg"
+  }
+]

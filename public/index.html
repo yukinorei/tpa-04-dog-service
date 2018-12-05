@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/prism.css">
+  <link rel="stylesheet" href="/css/dogs.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>ドッグ・サービス</h1>
+
+    <p>ID を入力したらドッグデータが表示されるクライアントです。サーバサイドのAPIを完成しよう。</p>
+
+    <hr>
+
+    <form id="dog-query-form">
+      <label for="dog-id">Enter Dog Id:</label>
+      <input id="dog-id-input" placeholder="ID" required autocomplete="off"/>
+      <button>Submit</button>
+    </form>
+
+    <h1>Dog Data</h1>
+
+    <div class="dog-data">
+
+    </div>
+
+    <hr>
+    <a href="/">Back</a>
+  </div>
+
+  <script type="module">
+    import { initApp } from '/js/app.js';
+    initApp();
+  </script>
+</body>
+
+</html>

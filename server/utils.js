@@ -1,22 +1,14 @@
-/**
- * parsePathParameters
- *
- * この関数は二つの文字列を与えられます。
- * path parameters を見極めてオブジェクトを返しましょう。
- * path parameters は pathWithParams 文字列の/の間にある:xxx がパラメターとなります。
- * 下記の例をご覧ください：
- *
- * 入力: '/posts/3/comments/4', '/posts/:postId/comments/:commentId'
- * 出力: {
- *   postId: 3,
- *   commentId: 4
- * }
- */
 const parsePathParameters = function(originalPath, pathWithParams) {
-  //
-  // TODO
-  //
-  return {};
+  const parametersObj = {};
+  const originalPathArray = originalPath.split('/');
+  const removeColonString = pathWithParams.split(':').join('');
+  const pathWithParamsArray = removeColonString.split('/');
+  pathWithParamsArray.forEach((key, index) => {
+    if (originalPathArray[index] !== pathWithParamsArray[index]) {
+      parametersObj[pathWithParamsArray[index]] = Number(originalPathArray[index]);
+    }
+  });
+  return parametersObj;
 };
 
 module.exports = {
